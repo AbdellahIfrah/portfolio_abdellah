@@ -1,12 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // Enable static exports
-  basePath: '/portfolio_abdellah',  // The base path for your GitHub Pages site
+  output: 'export',
+  basePath: '/portfolio_abdellah',
   images: {
     unoptimized: true,
-    domains: ['localhost'],
-    formats: ['image/avif', 'image/webp'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
+  assetPrefix: '/portfolio_abdellah/',
 }
 
 module.exports = nextConfig
