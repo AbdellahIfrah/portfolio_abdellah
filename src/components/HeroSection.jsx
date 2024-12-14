@@ -22,7 +22,7 @@ const HeroSection = () => {
           playsInline
           className="object-cover w-full h-full"
         >
-          <source src="/videos/ocean-waves.mp4" type="video/mp4" />
+          <source src="./videos/ocean-waves.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50 z-10" />
       </div>
@@ -32,7 +32,7 @@ const HeroSection = () => {
         {[...Array(3)].map((_, i) => (
           <motion.img
             key={i}
-            src="/images/one-piece/cloud.svg"
+            src="./images/one-piece/cloud.svg"
             alt="Cloud"
             className="absolute opacity-30"
             style={{
@@ -56,7 +56,7 @@ const HeroSection = () => {
       {/* Floating Ships */}
       <div className="absolute inset-0 z-20 pointer-events-none">
         <motion.img
-          src="/images/one-piece/thousand-sunny.png"
+          src="./images/one-piece/thousand-sunny.png"
           alt="Thousand Sunny"
           className="absolute right-0 w-96 opacity-80"
           animate={{
@@ -87,7 +87,7 @@ const HeroSection = () => {
           className="text-center"
         >
           <motion.img
-            src="/images/one-piece/straw-hat-logo.png"
+            src="./images/one-piece/straw-hat-logo.png"
             alt="Straw Hat"
             className="w-32 h-32 mx-auto mb-6"
             animate={{
@@ -148,7 +148,7 @@ const HeroSection = () => {
             <span className="flex items-center gap-2">
               View My Projects
               <img
-                src="/images/one-piece/luffy-icon.png"
+                src="./images/one-piece/luffy-icon.png"
                 alt="Luffy"
                 className="w-12 h-12 transform group-hover:rotate-12 transition-transform"
               />
