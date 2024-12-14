@@ -10,35 +10,35 @@ const languages = [
     name: 'Tamazight', 
     level: 'Native', 
     flag: '🇲🇦', 
-    icon: './images/flags/Berber_flag.svg',
+    icon: '/images/flags/Berber_flag.svg',
     description: 'Mother tongue, deep cultural roots'
   },
   { 
     name: 'Arabic', 
     level: 'Native', 
     flag: '🇲🇦', 
-    icon: './images/flags/arabic.png',
+    icon: '/images/flags/arabic.png',
     description: 'Fluent communication, rich linguistic heritage'
   },
   { 
     name: 'Spanish', 
     level: 'Intermediate', 
     flag: '🇪🇸', 
-    icon: './images/flags/spanish.png',
+    icon: '/images/flags/spanish.png',
     description: 'Conversational skills, growing proficiency'
   },
   { 
     name: 'English', 
     level: 'Intermediate', 
     flag: '🇬🇧', 
-    icon: './images/flags/english.png',
+    icon: '/images/flags/english.png',
     description: 'Professional and technical communication'
   },
   { 
     name: 'French', 
     level: 'Basic', 
     flag: '🇫🇷', 
-    icon: './images/flags/french.png',
+    icon: '/images/flags/french.png',
     description: 'Foundational understanding'
   },
 ];
@@ -94,7 +94,7 @@ When I'm not coding (my Devil Fruit power 😉), you'll find me exploring new te
                             before:shadow-[0_0_20px_8px_rgba(59,130,246,0.8),inset_0_0_20px_8px_rgba(59,130,246,0.8)] 
                             before:animate-pulse">
                 <Image
-                  src="./images/profile.jpg"
+                  src="/images/profile.jpg"
                   alt="Abdellah Ifrah"
                   layout="fill"
                   objectFit="cover"

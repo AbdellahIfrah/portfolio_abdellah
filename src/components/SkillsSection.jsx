@@ -8,28 +8,28 @@ const skills = [
   {
     category: 'Devil Fruit Powers (Frontend)',
     items: [
-      { name: 'React', level: 90, icon: './images/skills/react.png' },
-      { name: 'Next.js', level: 85, icon: './images/skills/nextjs.png' },
-      { name: 'TypeScript', level: 80, icon: './images/skills/typescript.png' },
-      { name: 'Tailwind CSS', level: 95, icon: './images/skills/tailwind.png' },
+      { name: 'React', level: 90, icon: '⚛️' },
+      { name: 'Next.js', level: 85, icon: '▲' },
+      { name: 'TypeScript', level: 80, icon: '📘' },
+      { name: 'Tailwind CSS', level: 95, icon: '🎨' },
     ],
   },
   {
     category: 'Haki Abilities (Backend)',
     items: [
-      { name: 'Node.js', level: 85, icon: './images/skills/nodejs.png' },
-      { name: 'Python', level: 80, icon: './images/skills/python.png' },
-      { name: 'MongoDB', level: 75, icon: './images/skills/mongodb.png' },
-      { name: 'SQL', level: 70, icon: './images/skills/sql.png' },
+      { name: 'Node.js', level: 85, icon: '🟢' },
+      { name: 'Python', level: 80, icon: '🐍' },
+      { name: 'MongoDB', level: 75, icon: '🍃' },
+      { name: 'SQL', level: 70, icon: '📊' },
     ],
   },
   {
     category: 'Combat Techniques (Tools)',
     items: [
-      { name: 'Git', level: 90, icon: './images/skills/git.png' },
-      { name: 'Docker', level: 75, icon: './images/skills/docker.png' },
-      { name: 'AWS', level: 70, icon: './images/skills/aws.png' },
-      { name: 'Linux', level: 80, icon: './images/skills/linux.png' },
+      { name: 'Git', level: 90, icon: '📦' },
+      { name: 'Docker', level: 75, icon: '🐳' },
+      { name: 'AWS', level: 70, icon: '☁️' },
+      { name: 'Linux', level: 80, icon: '🐧' },
     ],
   },
 ];
