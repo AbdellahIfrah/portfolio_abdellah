@@ -13,7 +13,7 @@ const projects = [
     technologies: ['React', 'Node.js', 'MongoDB'],
     demoLink: 'https://demo1.com',
     githubLink: 'https://github.com/yourusername/project1',
-    character: './images/one-piece/Luffy.png',
+    character: './images/one-piece/luffy.png',
     characterQuote: '"I will become the King of Web Developers!"'
   },
   {

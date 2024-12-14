@@ -36,7 +36,7 @@ const Navbar = () => {
             >
               <div className="relative w-8 h-8">
                 <Image
-                  src="/images/one-piece/straw-hat-logo.png"
+                  src="./images/one-piece/straw-hat-logo.png"
                   alt="Logo"
                   fill
                   style={{ objectFit: 'contain' }}
