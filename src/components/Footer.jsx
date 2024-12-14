@@ -55,7 +55,7 @@ const Footer = () => {
             </motion.h3>
             <div className="space-y-2 text-gray-400">
               <p>Email: abdellahifrah0@gmail.com</p>
-              <p>Location: Morocco</p>
+              <p>Location: Barcelona</p>
               <div className="flex items-center gap-4 mt-4">
                 {/* Social Links */}
                 <motion.a
