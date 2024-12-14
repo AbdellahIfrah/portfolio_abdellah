@@ -1,4 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio - Abdellah Ifrah
+
+My personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion. Featuring a One Piece theme!
+
+## Live Demo
+
+Visit my portfolio at: https://abdellahifrah.github.io/portfolio_abdellah/
+
+## Features
+
+- Responsive design
+- Smooth animations
+- One Piece themed UI elements
+- Interactive sections for About, Skills, Projects, and Contact
+
+## Technologies Used
+
+- Next.js
+- Tailwind CSS
+- Framer Motion
+- GitHub Pages for deployment
+
+## Contact
+
+Feel free to reach out to me at abdellahifrah0@gmail.com
 
 ## Getting Started
 
