@@ -51,7 +51,7 @@ const SkillsSection = () => {
             <div className="relative w-20 h-20 group">
               <div className="transition-transform duration-300 group-hover:scale-[3] absolute w-full h-full">
                 <Image
-                  src="/images/one-piece/devil-fruit.png"
+                  src="./images/one-piece/devil-fruit.png"
                   alt="Skills Icon"
                   fill
                   style={{ objectFit: 'contain' }}

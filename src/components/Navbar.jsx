@@ -83,7 +83,7 @@ const Navbar = () => {
             >
               <div className="relative w-6 h-6">
                 <Image
-                  src="/images/one-piece/den-den-mushi-menu.png"
+                  src="./images/one-piece/den-den-mushi-menu.png"
                   alt="Menu"
                   fill
                   style={{ objectFit: 'contain' }}

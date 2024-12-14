@@ -9,31 +9,31 @@ const projects = [
   {
     title: 'Grand Line Navigator',
     description: 'A full-stack web application for tracking and managing development projects, inspired by the journey through the Grand Line.',
-    image: '/images/one-piece/thousand-sunny.png',
+    image: './images/one-piece/thousand-sunny.png',
     technologies: ['React', 'Node.js', 'MongoDB'],
     demoLink: 'https://demo1.com',
     githubLink: 'https://github.com/yourusername/project1',
-    character: '/images/one-piece/Luffy.png',
+    character: './images/one-piece/Luffy.png',
     characterQuote: '"I will become the King of Web Developers!"'
   },
   {
     title: 'Den Den Mushi Chat',
     description: 'Real-time chat application with video calls, bringing the Den Den Mushi to the digital age.',
-    image: '/images/one-piece/den-den-mushi.svg',
+    image: './images/one-piece/den-den-mushi.svg',
     technologies: ['Next.js', 'Socket.io', 'WebRTC'],
     demoLink: 'https://demo2.com',
     githubLink: 'https://github.com/yourusername/project2',
-    character: '/images/one-piece/brook.png',
+    character: './images/one-piece/brook.png',
     characterQuote: '"Music connects people, just like my code!"'
   },
   {
     title: 'Thousand Sunny Dashboard',
     description: 'A beautiful dashboard template with dark mode, animations, and a One Piece inspired design.',
-    image: '/images/one-piece/straw-hat-logo.png',
+    image: './images/one-piece/straw-hat-logo.png',
     technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
     demoLink: 'https://demo3.com',
     githubLink: 'https://github.com/yourusername/project3',
-    character: '/images/one-piece/Shanks.png',
+    character: './images/one-piece/Shanks.png',
     characterQuote: '"A true developer never stops learning!"'
   },
 ];
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
         }}
       >
         <Image
-          src="/images/one-piece/thousand-sunny.png"
+          src="./images/one-piece/thousand-sunny.png"
           alt="Thousand Sunny"
           layout="fill"
           objectFit="contain"
@@ -75,7 +75,7 @@ const ProjectsSection = () => {
           >
             <div className="relative w-12 h-12">
               <Image
-                src="/images/one-piece/log-pose.png"
+                src="./images/one-piece/log-pose.png"
                 alt="Projects Icon"
                 fill
                 style={{ objectFit: 'contain' }}

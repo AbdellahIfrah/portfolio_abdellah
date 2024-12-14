@@ -13,7 +13,7 @@ const Footer = () => {
               className="text-xl font-bold flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
             >
-              <img src="/images/one-piece/luffy-icon.png" alt="Luffy" className="w-6 h-6" />
+              <img src="./images/one-piece/luffy-icon.png" alt="Luffy" className="w-6 h-6" />
               Pirate Quote
             </motion.h3>
             <p className="text-gray-400 italic">
@@ -28,7 +28,7 @@ const Footer = () => {
               className="text-xl font-bold flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
             >
-              <img src="/images/one-piece/log-pose.png" alt="Navigation" className="w-6 h-6" />
+              <img src="./images/one-piece/log-pose.png" alt="Navigation" className="w-6 h-6" />
               Navigation
             </motion.h3>
             <ul className="space-y-2">
@@ -50,7 +50,7 @@ const Footer = () => {
               className="text-xl font-bold flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
             >
-              <img src="/images/one-piece/den-den-mushi-nav.png" alt="Contact" className="w-6 h-6" />
+              <img src="./images/one-piece/den-den-mushi-nav.png" alt="Contact" className="w-6 h-6" />
               Contact
             </motion.h3>
             <div className="space-y-2 text-gray-400">
@@ -65,7 +65,7 @@ const Footer = () => {
                   whileHover={{ scale: 1.1 }}
                   className="text-white hover:text-red-400"
                 >
-                  <img src="/images/one-piece/jolly-roger.png" alt="GitHub" className="w-6 h-6" />
+                  <img src="./images/one-piece/jolly-roger.png" alt="GitHub" className="w-6 h-6" />
                 </motion.a>
                 <motion.a
                   href="https://www.linkedin.com/in/ifrah-abdellah-7a26082b2/"
@@ -74,7 +74,7 @@ const Footer = () => {
                   whileHover={{ scale: 1.1 }}
                   className="text-white hover:text-red-400"
                 >
-                  <img src="/images/one-piece/wanted-poster.png" alt="LinkedIn" className="w-6 h-6" />
+                  <img src="./images/one-piece/wanted-poster.png" alt="LinkedIn" className="w-6 h-6" />
                 </motion.a>
               </div>
             </div>
