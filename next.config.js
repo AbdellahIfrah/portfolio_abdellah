@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export',  // Enable static exports
+  basePath: '/portfolio_abdellah',  // The base path for your GitHub Pages site
   images: {
     unoptimized: true,
+    domains: ['localhost'],
+    formats: ['image/avif', 'image/webp'],
   },
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/portfolio_abdellah',
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '/portfolio_abdellah',
 }
 
 module.exports = nextConfig

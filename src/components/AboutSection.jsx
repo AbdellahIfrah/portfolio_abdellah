@@ -81,11 +81,11 @@ When I'm not coding (my Devil Fruit power 😉), you'll find me exploring new te
             About Me
           </motion.h2>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
+          <div className="grid grid-cols-2 gap-8 mb-8">
             {/* Profile Image */}
             <motion.div 
               variants={cardVariants}
-              className="flex items-center justify-center order-1 md:order-1"
+              className="flex items-center justify-center"
             >
               <div className="relative w-full max-w-[270px] aspect-square rounded-full overflow-hidden 
                             shadow-[0_0_25px_10px_rgba(59,130,246,0.8)] 
@@ -106,7 +106,7 @@ When I'm not coding (my Devil Fruit power 😉), you'll find me exploring new te
             {/* About Text */}
             <motion.div 
               variants={cardVariants}
-              className="flex items-center order-2 md:order-2"
+              className="flex items-center"
             >
               <p className="text-xl text-gray-300">
                 {text}
