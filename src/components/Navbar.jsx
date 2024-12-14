@@ -2,13 +2,12 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const navLinks = [
   { name: 'Home', href: 'home' },
   { name: 'About', href: 'about' },
-  { name: 'Projects', href: 'projects' },
   { name: 'Skills', href: 'skills' },
+  { name: 'Projects', href: 'projects' },
   { name: 'Contact', href: 'contact' },
 ];
 
@@ -35,12 +34,10 @@ const Navbar = () => {
               className="flex items-center space-x-2 cursor-pointer"
             >
               <div className="relative w-8 h-8">
-                <Image
-                  src="/images/one-piece/straw-hat-logo.png"
+                <img
+                  src="./images/one-piece/straw-hat-logo.png"
                   alt="Logo"
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  priority
+                  className="w-8 h-8"
                 />
               </div>
               <span className="text-white font-bold text-xl">Abdellah</span>
@@ -64,6 +61,11 @@ const Navbar = () => {
                   duration={500}
                   className="text-gray-300 hover:text-white transition-colors cursor-pointer"
                 >
+                  <img
+                    src={`./images/one-piece/nav-${link.href}.png`}
+                    alt={link.name}
+                    className="w-5 h-5"
+                  />
                   {link.name}
                 </Link>
               </motion.div>
@@ -82,12 +84,10 @@ const Navbar = () => {
               className="text-gray-300 hover:text-white p-2"
             >
               <div className="relative w-6 h-6">
-                <Image
-                  src="/images/one-piece/den-den-mushi-menu.png"
+                <img
+                  src="./images/one-piece/menu-icon.png"
                   alt="Menu"
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  priority
+                  className="w-6 h-6"
                 />
               </div>
             </button>
@@ -121,6 +121,11 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className="block text-gray-300 hover:text-white transition-colors cursor-pointer"
                 >
+                  <img
+                    src={`./images/one-piece/nav-${link.href}.png`}
+                    alt={link.name}
+                    className="w-5 h-5"
+                  />
                   {link.name}
                 </Link>
               </motion.div>
